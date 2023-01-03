@@ -5,11 +5,6 @@ using System.Globalization;
 
 class Program
 {
-    private readonly ISalaryIncrease salaryIncrease;
-    public Program(ISalaryIncrease salaryIncrease)
-    {
-        this.salaryIncrease = salaryIncrease;
-    }
     static void Main(string[] args)
     {
         bool endApp = false;
